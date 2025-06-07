@@ -2,11 +2,11 @@
 
 ### 🎯 Purpose
 
-The **Celo DeFi Builder Bootcamp** is a focused, high-impact learning experience designed to transition junior Web2 developers—especially across Latin America—into active Celo ecosystem builders. This regional focus is supported by the **Celo Colombia** community and leverages the **cCOP stablecoin** for incentives, rewards, and in-course transactions. The program is designed specifically for university students, bootcamp grads, and early-career engineers. All live sessions are delivered in UTC-5 to suit Colombia/México time zones.
+The **Celo DeFi Builder Bootcamp** is a focused, high-impact learning experience designed to transition junior Web2 developers from Colombia into active Celo ecosystem builders. This regional focus is supported by the **Celo Colombia** community and leverages the **cCOP stablecoin** for incentives, rewards, and in-course transactions. The program is designed specifically for university students, bootcamp grads, and early-career engineers. All live sessions are delivered in UTC-5 to suit Colombia/México time zones.
 
 ### 🧩 What It Is
 
-A 5-session, cohort-based online bootcamp that equips React/TypeScript developers with foundational Web3 and DeFi skills, using **Celo-native tools**, **GitHub**, and **Proof of Ship** from Day 1. Each learner builds and submits 5 small, functional DeFi projects—publicly tracked and documented.
+A 5-session, cohort-based online bootcamp that equips React/TypeScript developers with foundational Web3 and DeFi skills, using **Celo-native tools**, **GitHub**, and **Proof of Ship** from Day 1. Each learner builds and submits 4 small, functional DeFi projects—publicly tracked and documented.
 
 ### 🔗 GitHub-First, Code-Centric Learning
 
@@ -44,14 +44,11 @@ Each session is delivered live online and is 2 hours long. The format is 80% han
 * **Session 2: Time-Locked Vault**
   Build and test a smart contract that locks CELO or cUSD with UI.
 
-* **Session 3: Uniswap LP Dashboard**
+* **Session 3:cCOP Multi-Sig Wallet Frontend**
+  Deploy a simple smart contract wallet that requires multiple signers to approve cCOP transfers.
+
+* **Session 4: Uniswap LP Dashboard**
   Visualize pool data using Uniswap SDK and viem on Celo.
-
-* **Session 4: Impermanent Loss Calculator**
-  Create a tool to simulate and visualize IL from LP activity.
-
-* **Session 5 & Capstone: Balancer and Compounder Tool**
-  Launch a smart contract that automatically rebalances and compounds an LP position.
 
 This outline is designed to offer continuous wins, real-world tooling exposure, and public portfolio building through Proof of Ship.
 
