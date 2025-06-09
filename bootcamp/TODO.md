@@ -1,4 +1,5 @@
 ### Semana 1
+- [ ] 📖 crear proyecto principal en karma
 - [x] 📝 formulario  
 - [x] 🌐 landing page  
 - [ ] 🎥 video promocional  
