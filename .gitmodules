@@ -1,0 +1,3 @@
+[submodule "celo-colombia-bootcamp-landing"]
+	path = celo-colombia-bootcamp-landing
+	url = git@github.com:cold-briu/celo-colombia-bootcamp-landing.git
