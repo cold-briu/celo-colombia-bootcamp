@@ -1,5 +1,10 @@
 ## 🚀 Celo DeFi Builder Bootcamp
 
+## Links
+
+👾 [Karma GAP Porject Link](https://gap.karmahq.xyz/project/celocolombia-defi-bootcamp)
+🚀 [Landing Page Link](https://cold-briu.github.io/celo-colombia-bootcamp-landing/)
+
 ### 🎯 Purpose
 
 The **Celo DeFi Builder Bootcamp** is a focused, high-impact learning experience designed to transition junior Web2 developers from Colombia into active Celo ecosystem builders. This regional focus is supported by the **Celo Colombia** community and leverages the **cCOP stablecoin** for incentives, rewards, and in-course transactions. The program is designed specifically for university students, bootcamp grads, and early-career engineers. All live sessions are delivered in UTC-5 to suit Colombia/México time zones.
