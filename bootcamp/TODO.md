@@ -1,9 +1,9 @@
 ### Semana 1
-- [ ] 📖 crear proyecto principal en karma
+- [x] 📖 crear proyecto principal en karma
 - [x] 📝 formulario  
 - [x] 🌐 landing page  
-- [ ] 🎥 video promocional  
-- [ ] 📖 guía escrita de karma  
+- [x] 🎥 video promocional  
+- [x] 📖 guía escrita de karma  
 
 ### Semana 2
 - [ ] 📋 plantilla para sesiones 1 y 2  

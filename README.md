@@ -1,13 +1,18 @@
 ## 🚀 Celo DeFi Builder Bootcamp
 
-## Links
+### 🔗 Links 
 
-👾 [Karma GAP Porject Link](https://gap.karmahq.xyz/project/celocolombia-defi-bootcamp)
-🚀 [Landing Page Link](https://cold-briu.github.io/celo-colombia-bootcamp-landing/)
+>👾 [Karma GAP Project](https://gap.karmahq.xyz/project/celocolombia-defi-bootcamp)
 
-### 🎯 Purpose
+>🚀 [Landing Page](https://cold-briu.github.io/celo-colombia-bootcamp-landing/)
 
-The **Celo DeFi Builder Bootcamp** is a focused, high-impact learning experience designed to transition junior Web2 developers from Colombia into active Celo ecosystem builders. This regional focus is supported by the **Celo Colombia** community and leverages the **cCOP stablecoin** for incentives, rewards, and in-course transactions. The program is designed specifically for university students, bootcamp grads, and early-career engineers. All live sessions are delivered in UTC-5 to suit Colombia/México time zones.
+## 🎯 Purpose
+
+The **Celo DeFi Builder Bootcamp** is a focused, high-impact learning experience designed to transition junior Web2 developers and early-stage Web3 **developers from Colombia into active Celo ecosystem builders**. 
+
+Unlike traditional coding bootcamps, this program emphasizes creating grant-ready builders** who can sustainably contribute to the ecosystem. It **leverages Celo’s Proof of Ship** framework to validate progress and catalyze long-term engagement. 
+
+The **Celo Colombia community** supports this regional initiative, with the cCOP stablecoin used for incentives and in-course transactions. The cCOP stablecoin is used throughout the bootcamp for transactions, and smart contract interactio, demonstrating its utility and encouraging real-world integration.
 
 ### 🧩 What It Is
 
@@ -22,20 +27,15 @@ A 5-session, cohort-based online bootcamp that equips React/TypeScript developer
 
 ### 🛠️ Proof of Ship & Karma GAP Integration
 
-From Session 1, learners:
+* Create a Karma GAP project to track submissions from day 1.
+* Submit each week’s project as a milestone via GitHub PRs.
+* Build a public, verifiable portfolio that supports future grant applications.
 
-* Create a Karma GAP project to track submissions
-* Submit each week’s project as a milestone via GitHub PRs
-* Mint a Proof of Ship Soulbound Token upon completion
-* Build a public, verifiable portfolio that supports future grant applications
-
-### 🪴 Long-Term Impact
-
-Graduates of this LATAM-focused program:
+### 🪴 Long-Term Impact for Students
 
 * Apply for Celo grants with live projects
-* Join Celo Colombia, cCOP, and DeFi DAOs
-* Serve as peer mentors for the next cohort
+* Join Celo Colombia and build on top of cCop.
+* Nurture the regional community of builders.
 
 ### 📚 Bootcamp Delivery & Session Outline
 
@@ -47,13 +47,13 @@ Each session is delivered live online and is 2 hours long. The format is 80% han
   Deploy a HelloCelo contract and register a Karma GAP project.
 
 * **Session 2: Time-Locked Vault**
-  Build and test a smart contract that locks CELO or cUSD with UI.
+  Build and test a smart contract that locks CELO or cCop with UI.
 
 * **Session 3:cCOP Multi-Sig Wallet Frontend**
   Deploy a simple smart contract wallet that requires multiple signers to approve cCOP transfers.
 
 * **Session 4: Uniswap LP Dashboard**
-  Visualize pool data using Uniswap SDK and viem on Celo.
+  Visualize Uniswap pools data using subgraphs on Celo.
 
 This outline is designed to offer continuous wins, real-world tooling exposure, and public portfolio building through Proof of Ship.
 
@@ -64,7 +64,7 @@ The program produces tangible outputs that demonstrate learner progress and ecos
 #### Instructor Deliverables:
 
 * Weekly office-hour schedule shared via Google Calendar
-* Static website hosting the full course outline, project templates, toolchain links, and FAQ
+* Static website hosting the full course outline, project templates, toolchain links, and FAQ.
 * GitHub repos for each session with starter code and issue templates
 * Bootcamp project on Karma GAP with milestone tracking
 * Recap content and coordination of Twitter Space finale
