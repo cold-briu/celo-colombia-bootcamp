@@ -3,17 +3,18 @@
 - [x] 📝 formulario  
 - [x] 🌐 landing page  
 - [x] 🎥 video promocional  
-- [x] 📖 guía escrita de karma  
+- [x] 📖 guía escrita de Karma: Registro
 
 ### Semana 2
 - [ ] 📋 plantilla para sesiones 1 y 2  
 - [ ] 📂 material para sesiones 1 y 2  
+- [ ] 📖 guía escrita de Karma: Registro
+
 
 ### Semana 3
 - [ ] 📋 plantilla para sesión 3  
 - [ ] 📂 material para sesión 3  
-- [ ] 📅 calendario de sesiones  
-- [ ] 🕒 office hours  
+- [ ] 📅 calendario de sesiones, formularios de feedback, mails de introduccion y recurrentes
 
 ### Semana 4
 - [ ] 📋 plantilla para sesión 4  
