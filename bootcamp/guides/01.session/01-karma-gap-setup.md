@@ -144,76 +144,47 @@ Agrega las direcciones de los miembros del equipo para otorgarles acceso:
 
 ## 🔗 8. Aplicar a Proof-of-Ship y crear hitos
 
-Sigue esta ruta para sumar tu proyecto al programa Proof-of-Ship:
-
 1. En tu proyecto, haz clic en **Agregar fuente de fondeo**.
 2. Selecciona **Proof-of-Ship**.
 3. Crea tu primer **Hito** con título, descripción y fecha límite.
 4. Firma la transacción.
 5. Añade hitos adicionales según tu hoja de ruta.
 
-![Project Registration Complete](./karma-guide-assets/karma12.png)
-
-*Figura 12. Proyecto registrado exitosamente.*
+![Registro completo](./karma-guide-assets/karma12.png)
 
 ---
 
 ## 💰 9. Navegar a la pestaña de Funding
 
-En la página principal de tu proyecto, navega a la pestaña de **Funding**:
+1. Localiza la pestaña **Funding** en tu proyecto.
+2. Haz clic en **Add Funding**.
 
-1. Localiza la pestaña **Funding** en la interfaz de tu proyecto.
-2. Haz clic en el botón **Add Funding** para aplicar a Proof-of-Ship.
-
-![Project Funding Tab](./karma-guide-assets/karma13.png)
-
-*Figura 13. Pestaña de Funding del proyecto con opción para agregar financiamiento.*
+![Funding tab](./karma-guide-assets/karma13.png)
 
 ---
 
 ## 🎯 10. Seleccionar comunidad y programa de financiamiento
 
-La imagen muestra el selector de comunidades con programas de fondeo:
+1. **Comunidad**: elige **Celo**.
 
-1. **En el primer selector (Comunidad)**: Elige **Celo**.
+   ![Selector comunidad](./karma-guide-assets/karma14.png)
 
-   ![Community Selector](./karma-guide-assets/karma14.png)
+2. **Programa**: elige **Proof of Ship Temporada 6**.
 
-   *Figura 14. Selector de comunidades con programas de fondeo.*
-
-2. **En el segundo selector (Programa de financiamiento)**: Elige **Proof of Ship Temporada 6**.
-
-   ![Funding Program Selector](./karma-guide-assets/karma15.png)
-
-*Figura 15. Selección del programa Proof of Ship Temporada 6.*
+   ![Selector programa](./karma-guide-assets/karma15.png)
 
 ---
 
 ## 📋 11. Crear milestones
 
-1. Haz clic en **Add Milestones** para agregar tu primera tarea.
+1. Haz clic en **Add Milestones**.
+2. Completa el formulario:
+   * **Título**
+   * **Descripción** (opcional)
+   * **End Date**
+3. Haz clic en **Save Milestone** y firma.
 
-   ![Add Milestones Menu](./karma-guide-assets/karma16.png)
-
-   *Figura 16. Menú para crear milestones.*
-
-2. Completa el formulario de milestones con los siguientes campos:
-
-   * **Título**: Nombre de tu milestone
-   * **Descripción** (opcional): Detalles adicionales
-   * **End Date**: Fecha límite para completar la tarea
-
-   ![Milestone Form](./karma-guide-assets/karma17.png)
-
-   *Figura 17. Formulario de milestones con campos de título, descripción y fecha límite.*
-
-3. Una vez escritos todos los campos, haz clic en **Save Milestone**.
-
-4. Revisa tu billetera para autorizar la escritura en la cadena y espera a que se completen los cinco pasos.
-
-   ![Wallet Authorization](./karma-guide-assets/karma19.png)
-
-   *Figura 19. Proceso de autorización en la billetera.*
+![Milestones](./karma-guide-assets/karma17.png)
 
 ---
 
