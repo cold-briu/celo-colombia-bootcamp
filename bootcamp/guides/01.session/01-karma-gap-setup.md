@@ -1,77 +1,167 @@
-# Karma GAP
+# 📝 Guía de Karma GAP
 
-## ¿Qué es Karma GAP?
+## 🔍 Proof-of-Ship
 
-Karma GAP es una herramienta blockchain que permite a los programas de grants mantener claridad y transparencia mediante registros on-chain. Los equipos crean un perfil de proyecto, asocian sus grants y definen milestones sencillos. Cada actualización y logro queda registrado en la blockchain, de modo que cualquiera puede verificar el progreso sin permisos adicionales.
+Proof-of-Ship es el programa mensual de Celo que premia la ejecución efectiva: rastrea automáticamente tu actividad (commits en GitHub, publicaciones en Farcaster, entregables de grants) y la convierte en cUSD (hasta ~5 000 cUSD) directo a tu wallet. Todo queda registrado on-chain como prueba de entrega y fortalece tu reputación para futuras rondas de financiamiento y airdrops.
 
-En el programa Proof-of-Ship de Celo, los builders se registran eligiendo un track y aportando detalles como enlaces de GitHub o direcciones de smart contract. Luego comparten sus avances en cada milestone, y las comprobaciones automáticas de Karma (vía GitHub y Farcaster) validan el trabajo y distribuyen las recompensas según los resultados. Así, todo el proceso es ágil, transparente y justo.
+## 📘 Karma GAP
 
-## Creando una cuenta en Karma GAP y registrando el primer proyecto
+Karma GAP (Grantee Accountability Protocol) funciona como un "portafolio vivo" on-chain: un único perfil donde registras hitos, actualizaciones y entregables de tu proyecto. Este historial público y verificable facilita a financiadores y comunidades evaluar tu progreso, reduce la fricción en nuevos procesos de funding y mejora la transparencia general.
 
-Con un fin educativo, esta guia muestra el proceso de registro especifico que se siguio para registrar este bootcamp en KarmaGAP.
+## 📑 Índice
 
-En primer lugar, navegar al sitio de Karma GAP https://gap.karmahq.xyz/
+1. [🚀 Inicio de sesión y registro](#-1-inicio-de-sesión-y-registro)
+2. [📂 Creación de un nuevo proyecto](#-2-creación-de-un-nuevo-proyecto)
+3. [🗂️ Información general del proyecto](#️-3-información-general-del-proyecto)
+4. [🌐 Redes sociales (opcional)](#-4-redes-sociales-opcional)
+5. [📈 Etapa del proyecto](#-5-etapa-del-proyecto)
+6. [📧 Información de contacto](#-6-información-de-contacto)
+7. [👥 Integrantes del equipo](#-7-integrantes-del-equipo)
+8. [🔗 Aplicar a Proof-of-Ship y crear hitos](#-8-aplicar-a-proof-of-ship-y-crear-hitos)
+9. [📚 Recursos y próximos pasos](#-9-recursos-y-próximos-pasos)
 
-Luego hcaer click en el boton "login/registro" 
+---
 
-![Login/Registro Button](./karma-guide-assets/karma1.png)
+## 🚀 1. Inicio de sesión y registro
 
-Al hacer click en el boton de login registro, una ventana aparecera solicitando conectar la wallet, en este caso se elige la opcion de preferencia, sea wallet en el navegador o wallet desde el telefono
+Sigue estos pasos para conectar tu cuenta en Karma GAP:
 
-![Wallet Connection](./karma-guide-assets/karma2.png)
+1. Navega a `https://gap.karmahq.xyz/`.
+2. Haz clic en **Login/Registro**.
 
-Una vez conectada la cuenta, la plataforma indica que no hay proyectos registrados, pues es la primera vez que se inicia sesion.
-Para registrar el primer proyecto se debe presionar el boton de "add project"
+   ![Login/Registro Button](../karma-guide-assets/karma1.png)
 
-![Add Project Button](./karma-guide-assets/karma3.png)
+   *Figura 1. Botón para iniciar sesión o registrarse.*
+3. Selecciona tu wallet preferida y conecta.
 
-El proceso de creacion de proyecto consta de 6 pasos, el primero requiere la informacion general del proyecto
+   ![Wallet Connection](../karma-guide-assets/karma2.png)
 
-![Project Creation Steps](./karma-guide-assets/karma4.png)
+   *Figura 2. Ventana para conectar tu wallet.*
 
-### Informacion general del proyecto
+> **Tip:** Si es tu primera vez, verás un mensaje de bienvenida sin proyectos registrados.
 
-El primer paso requiere ingresar el nombre del proyecto y su descripcion a resgos generales
+---
 
-![Project Name and Description](./karma-guide-assets/karma5.png)
+## 📂 2. Creación de un nuevo proyecto
 
-Luego, describir el problema que se intenta resolver y como el proyecto soluciona o atiende a ese problema
+Tras conectar tu wallet:
 
-![Problem and Solution](./karma-guide-assets/karma6.png)
+1. Haz clic en **Add Project**.
 
-Finalmente, se describe un resumen de la mision del proyecto, que enuncia de manera abstracta lo que se quiere lograr, tambien se incluye el area geografica donde tendra impacto el proyecto. Con esto, se completa la etapa de informacion general del proyecto
+   ![Add Project Button](../karma-guide-assets/karma3.png)
 
-![Project Mission](./karma-guide-assets/karma7.png)
+   *Figura 3. Botón para iniciar el registro de un proyecto.*
+2. Observa los pasos del proceso (seis en total).
 
-### Informacion de redes sociales 
+   ![Project Creation Steps](../karma-guide-assets/karma4.png)
 
-A continuacion, se ingresa informacion sobre las redes sociales del proyecto, si bien es opcional, mejora la reputacion del proyecto de cara a posibles financiadores 
+   *Figura 4. Secuencia de pasos para crear un proyecto.*
 
-![Social Media Information](./karma-guide-assets/karma8.png)
+---
 
-### Etapa del proyecto
+## 🗂️ 3. Información general del proyecto
 
-El siguiente paso en el proceso de registro implica describir la situacion actual del proyecto, esto es, el modelo de negocio, la etapa de desarrollo, el financiamiento que ya se haya conseguido y la ruta de financiamiento que se busca.
+Completa los datos básicos de tu proyecto:
 
-En este caso, dado que este bootcamp es sin animo de lucro, su modelo de negocio es financiamiento de por medio de grants. 
+1. Ingresa el **Nombre** y una **Breve descripción**.
 
-![Project Stage](./karma-guide-assets/karma9.png)
+   ![Project Name and Description](../karma-guide-assets/karma5.png)
 
-### Informacion de contacto
+   *Figura 5. Campos para nombre y descripción del proyecto.*
+2. Describe el **Problema** que resuelves y tu **Solución**.
 
-En este paso se solicita informacion de contacto para notificar posibles grants que estén disponibles y para enviar altertas y notificaciones respecto a milestones y fechas límite. 
+   ![Problem and Solution](../karma-guide-assets/karma6.png)
 
-![Contact Information](./karma-guide-assets/karma10.png)
+   *Figura 6. Sección de problema y propuesta de valor.*
+3. Detalla la **Misión** y el **Ámbito geográfico**.
 
-### Integrantes del equipo
+   ![Project Mission](../karma-guide-assets/karma7.png)
 
-El último requerimiento del registro consiste en agregar las direcciones de las personas que van a participar del equipo.
+   *Figura 7. Campo para la misión y área de impacto.*
 
-![Team Members](./karma-guide-assets/karma11.png)
+---
 
-Habieno añadido las direcciones de los aprticipantes del equipo, se puede concluir con la fase de registro
+## 🌐 4. Redes sociales (opcional)
 
-![Project Registration Complete](./karma-guide-assets/karma12.png)
+Aumenta la visibilidad de tu proyecto proporcionando enlaces a tus perfiles:
 
+* Twitter
+* GitHub
+* Página web oficial
+
+![Social Media Information](../karma-guide-assets/karma8.png)
+
+*Figura 8. Panel para redes sociales.*
+
+---
+
+## 📈 5. Etapa del proyecto
+
+Indica en qué fase se encuentra tu proyecto y cuál es tu ruta de financiamiento:
+
+1. **Modelo de negocio**.
+2. **Nivel de desarrollo actual**.
+3. **Fondos obtenidos** hasta la fecha.
+4. **Objetivos de financiamiento**.
+
+> **Nota:** Para proyectos sin ánimo de lucro, selecciona `Grants` como fuente principal.
+
+![Project Stage](../karma-guide-assets/karma9.png)
+
+*Figura 9. Detalles de la etapa y financiamiento.*
+
+---
+
+## 📧 6. Información de contacto
+
+Proporciona datos para recibir notificaciones sobre convocatorias y fechas límite:
+
+* **Email institucional**
+* **Número de teléfono** (opcional)
+
+![Contact Information](../karma-guide-assets/karma10.png)
+
+*Figura 10. Formulario de contacto.*
+
+---
+
+## 👥 7. Integrantes del equipo
+
+Agrega las direcciones de los miembros del equipo para otorgarles acceso:
+
+1. Ingresa cada dirección de wallet.
+2. Verifica que todos aparezcan listados.
+
+![Team Members](../karma-guide-assets/karma11.png)
+
+*Figura 11. Lista de participantes.*
+
+---
+
+## 🔗 8. Aplicar a Proof-of-Ship y crear hitos
+
+Sigue esta ruta para sumar tu proyecto al programa Proof-of-Ship:
+
+1. En tu proyecto, haz clic en **Agregar fuente de fondeo**.
+2. Selecciona **Proof-of-Ship**.
+3. Crea tu primer **Hito** con título, descripción y fecha límite.
+4. Firma la transacción.
+5. Añade hitos adicionales según tu hoja de ruta.
+
+![Project Registration Complete](../karma-guide-assets/karma12.png)
+
+*Figura 12. Proyecto registrado exitosamente.*
+
+---
+
+## 📚 9. Recursos y próximos pasos
+
+* 📖 Consulta la [documentación oficial de Karma GAP](https://docs.karmahq.xyz/).
+* 🔗 Integra GitHub y Farcaster para validaciones automáticas.
+* 🚀 Empieza tu primer ciclo de hitos y comparte tu progreso en la comunidad.
+
+---
+
+*Este conjunto de reglas asegura coherencia, claridad y profesionalismo en la documentación.*
 
 
