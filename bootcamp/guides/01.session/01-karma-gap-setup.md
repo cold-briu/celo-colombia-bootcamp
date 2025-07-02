@@ -18,7 +18,11 @@ Karma GAP (Grantee Accountability Protocol) funciona como un "portafolio vivo" o
 6. [📧 Información de contacto](#-6-información-de-contacto)
 7. [👥 Integrantes del equipo](#-7-integrantes-del-equipo)
 8. [🔗 Aplicar a Proof-of-Ship y crear hitos](#-8-aplicar-a-proof-of-ship-y-crear-hitos)
-9. [📚 Recursos y próximos pasos](#-9-recursos-y-próximos-pasos)
+9. [💰 Navegar a la pestaña de Funding](#-9-navegar-a-la-pestaña-de-funding)
+10. [🎯 Seleccionar comunidad y programa de financiamiento](#-10-seleccionar-comunidad-y-programa-de-financiamiento)
+11. [📋 Crear milestones](#-11-crear-milestones)
+12. [🔐 Autorizar y completar milestones](#-12-autorizar-y-completar-milestones)
+13. [📚 Recursos y próximos pasos](#-13-recursos-y-próximos-pasos)
 
 ---
 
@@ -154,7 +158,90 @@ Sigue esta ruta para sumar tu proyecto al programa Proof-of-Ship:
 
 ---
 
-## 📚 9. Recursos y próximos pasos
+## 💰 9. Navegar a la pestaña de Funding
+
+En la página principal de tu proyecto, navega a la pestaña de **Funding**:
+
+1. Localiza la pestaña **Funding** en la interfaz de tu proyecto.
+2. Haz clic en el botón **Add Funding** para aplicar a Proof-of-Ship.
+
+![Project Funding Tab](./karma-guide-assets/karma13.png)
+
+*Figura 13. Pestaña de Funding del proyecto con opción para agregar financiamiento.*
+
+---
+
+## 🎯 10. Seleccionar comunidad y programa de financiamiento
+
+La imagen muestra el selector de comunidades con programas de fondeo:
+
+1. **En el primer selector (Comunidad)**: Elige **Celo**.
+
+   ![Community Selector](./karma-guide-assets/karma14.png)
+
+   *Figura 14. Selector de comunidades con programas de fondeo.*
+
+2. **En el segundo selector (Programa de financiamiento)**: Elige **Proof of Ship Temporada 6**.
+
+   ![Funding Program Selector](./karma-guide-assets/karma15.png)
+
+*Figura 15. Selección del programa Proof of Ship Temporada 6.*
+
+---
+
+## 📋 11. Crear milestones
+
+1. Haz clic en **Add Milestones** para agregar tu primera tarea.
+
+   ![Add Milestones Menu](./karma-guide-assets/karma16.png)
+
+   *Figura 16. Menú para crear milestones.*
+
+2. Completa el formulario de milestones con los siguientes campos:
+
+   * **Título**: Nombre de tu milestone
+   * **Descripción** (opcional): Detalles adicionales
+   * **End Date**: Fecha límite para completar la tarea
+
+   ![Milestone Form](./karma-guide-assets/karma17.png)
+
+   *Figura 17. Formulario de milestones con campos de título, descripción y fecha límite.*
+
+3. Una vez escritos todos los campos, haz clic en **Save Milestone**.
+
+4. Revisa tu billetera para autorizar la escritura en la cadena y espera a que se completen los cinco pasos.
+
+   ![Wallet Authorization](./karma-guide-assets/karma19.png)
+
+   *Figura 19. Proceso de autorización en la billetera.*
+
+---
+
+## 🔐 12. Verificar y agregar milestones adicionales
+
+1. Una vez completada la firma, verifica que la fuente de financiamiento aparezca en tu perfil en la pestaña de funding.
+
+   ![Funding Source Added](./karma-guide-assets/karma20.png)
+
+   *Figura 20. Fuente de financiamiento agregada al perfil.*
+
+2. Para crear milestones adicionales, haz clic en **Add New Milestone**.
+
+   ![Add New Milestone](./karma-guide-assets/karma21.png)
+
+   *Figura 21. Opción para agregar nueva milestone.*
+
+3. Completa el formulario con la información de la nueva milestone y firma la transacción.
+
+4. Verifica que todas las milestones aparezcan listadas en la pestaña de funding.
+
+   ![Milestones Created](./karma-guide-assets/karma22.png)
+
+   *Figura 22. Milestones creadas en la pestaña de funding.*
+
+---
+
+## 📚 13. Recursos y próximos pasos
 
 * 📖 Consulta la [documentación oficial de Karma GAP](https://docs.karmahq.xyz/).
 * 🔗 Integra GitHub y Farcaster para validaciones automáticas.
