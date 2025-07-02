@@ -8,7 +8,7 @@
 ### Semana 2
 - [ ] 📋 plantilla para sesiones 1 y 2  
 - [ ] 📂 material para sesiones 1 y 2  
-- [ ] 📖 guía escrita de Karma: Fuentes de financiamiento
+- [X] 📖 guía escrita de Karma: Fuentes de financiamiento
 
 
 ### Semana 3
