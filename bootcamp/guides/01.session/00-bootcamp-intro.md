@@ -9,18 +9,60 @@ El **Celo DeFi Builder Bootcamp** tiene como objetivo transformar desarrolladore
 
 ## 🔎 ¿Qué es blockchain, Ethereum, contratos inteligentes y Celo?
 
+Para entender Web3 desde tu experiencia en Web2, vamos a comparar conceptos conocidos con esta nueva arquitectura.
 
-* **Blockchain**: Una red descentralizada de bloques que registra transacciones de forma inmutable, vinculando cada bloque al anterior mediante hashes criptográficos. Esto crea un libro mayor transparente y resistente a la manipulación, donde cada nuevo bloque contiene un sello de tiempo y datos de transacción verificados por consenso.  
-  * Aprende más: [Blockchain – Wikipedia](https://en.wikipedia.org/wiki/Blockchain) 
+---
 
-* **Ethereum**: Plataforma descentralizada que impulsa smart contracts, permitiendo la creación de aplicaciones (dApps) sin intermediarios. Su criptomoneda nativa, Ether (ETH), se utiliza para pagar tarifas de transacción (gas) y asegurar la red mientras se ejecutan programas en la Ethereum Virtual Machine (EVM).  
-  * Aprende más: [What is Ethereum? – Ethereum.org](https://ethereum.org/en/what-is-ethereum/) 
+### 1. Blockchain vs Servidor Centralizado
 
-* **Contratos inteligentes**: Programas auto-ejecutables almacenados en la blockchain que se disparan cuando se cumplen condiciones previamente definidas. Reducen costos de intermediación y riesgos de fraude, y son el fundamento de finanzas descentralizadas (DeFi) y tokens no fungibles (NFT) por su capacidad de ejecución automática y determinista.  
-  * Aprende más: [Smart contract – Wikipedia](https://en.wikipedia.org/wiki/Smart_contract) 
+* **Registro Inmutable**: Imagina una base de datos en la nube donde cada registro se firma criptográficamente y queda sellado para siempre. Una vez escrito, nadie puede alterarlo.
+* **Infraestructura Descentralizada**: En lugar de depender de un único servidor (p. ej., tu API REST en AWS), decenas o cientos de **nodos** mantienen copias sincronizadas de esos datos.
+* **Coordinación sin Conocimiento Mutuo**: Los nodos se conectan con un protocolo P2P, comparten transacciones en un **mempool** y usan un mecanismo de **consenso** (por ejemplo, Proof of Stake) para decidir qué bloque de transacciones se agrega a la cadena. No necesitan saber nada de quién maneja cada nodo.
+* **Transparencia y Resistencia a la Censura**: Cada bloque es revisado por la mayoría de los nodos antes de añadirse, evitando modificaciones maliciosas.
 
-* **Celo**: Red compatible con EVM diseñada para inclusión financiera móvil, con transacciones rápidas y tarifas bajas. Ofrece stablecoins (como cUSD y cEUR) y un modelo de direcciones basado en números de teléfono para facilitar el acceso de usuarios no técnicos.  
-  * Aprende más: [What is Celo? – Celo Documentation](https://docs.celo.org/what-is-celo) 
+*Aprende más: [Blockchain – Wikipedia](https://en.wikipedia.org/wiki/Blockchain)*
+
+---
+
+### 2. Ethereum vs AWS
+
+* **Más que una criptomoneda**: Bitcoin es útil para transferir valor (como PayPal), pero Ethereum es una plataforma completa de **smart contracts**, capaz de ejecutar aplicaciones descentralizadas sin servidores tradicionales.
+* **Analogía Web2**: Imagina AWS como un catálogo de servicios — EC2 para servidores, S3 para almacenamiento, RDS para bases de datos — donde gestionas instancias y escalas según demanda. En Ethereum, despliegas smart contracts directamente en la red global, pagas solo por el cómputo consumido (gas) y no te preocupas por mantenimiento de infraestructura ni escalabilidad.
+* **Ecosistema DeFi**: Protocolos como Uniswap y Aave funcionan como servicios financieros en AWS Marketplace (por ejemplo, un servicio de exchange o lending), pero sin intermediarios: las operaciones se ejecutan automáticamente mediante smart contracts, asegurando transparencia y acceso global.
+
+*Aprende más: [What is Ethereum? – Ethereum.org](https://ethereum.org/en/what-is-ethereum/)*
+
+---
+
+### 3. Contratos inteligentes como Microservicios
+
+* **Definición**: Código auto-ejecutable que vive en la blockchain y se activa cuando se cumplen condiciones.
+* **Paralelo con Microservicios**:
+
+  * Cada contrato expone funciones (endpoints) y lógica de negocio, similar a un servicio independiente en tu arquitectura.
+  * La comunicación entre contratos ocurre on-chain, parecido a llamar APIs REST o gRPC entre servicios.
+  * Una vez desplegado, el contrato es inmutable y versionado (como un contenedor Docker inalterable).
+* **Casos de uso**:
+
+  * **DeFi**: Pools de liquidez, préstamos y swaps sin intermediarios.
+  * **NFT**: Implementación de tokens únicos para arte digital, tickets, etc.
+
+*Aprende más: [Smart contract – Wikipedia](https://en.wikipedia.org/wiki/Smart_contract)*
+
+---
+
+### 4. Celo como Layer 2 de Ethereum
+
+* **¿Qué aporta?**: Rollups zk-integrados para escalar más de 2 000 TPS con gas casi nulo, manteniendo la seguridad de Ethereum.
+* **Enfoque móvil**: Direcciones basadas en número de teléfono y experiencia optimizada para apps, ideal para usuarios sin experiencia crypto.
+* **Ventajas frente a otras L2**:
+
+  * EVM nativo, facilita portar dApps existentes.
+  * Stablecoins colateralizadas on-chain: **CELO** (gobernanza y staking), **cUSD**, **cEUR** y **cCOP** (pagos sin volatilidad).
+  * Gas pagado en cualquier de estos tokens, permitiendo abstraer la complejidad de la criptomoneda.
+  * Lanzamiento v1.5.0 (1 jul 2025): mejoras en agregación de transacciones y pagos off-chain.
+
+*Aprende más: [Celo Layer 2 Release – Documentación de Celo](https://docs.celo.org/what-is-celo#layer-2-release)* 
 
 
 ---
