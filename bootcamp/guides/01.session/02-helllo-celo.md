@@ -107,7 +107,7 @@ CELO_NODE_URL=https://alfajores-forno.celo-testnet.org
 
 Necesitas CELO (y opcionalmente cUSD) para desplegar y usar contratos. En testnet es gratis.
 
-1. Ve a [https://alfajores.celo.org/faucet](https://alfajores.celo.org/faucet)
+1. Ve a https://faucet.celo.org/alfajores
 2. Pega tu dirección y solicita CELO (y cUSD si quieres).
 3. Verifica tu saldo:
 
