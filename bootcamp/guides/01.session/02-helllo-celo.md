@@ -4,7 +4,7 @@
 
 Antes de empezar, asegúrate de tener:
 
-* Un terminal (Linux/macOS preferido; **en Windows** usa WSL 2 o Git Bash. En PowerShell, verifica que `forge`, `cast` y `celocli` estén en tu `%PATH%`).
+* Un terminal (Linux/macOS preferido; **en Windows** usa WSL 2 o Git Bash).
 * **Node.js versión 18 o superior** para poder instalar la CLI de Celo sin problemas.
 * Conocimientos básicos de Solidity y contratos inteligentes.
 * Navegador web para acceder al faucet del testnet de Celo.
