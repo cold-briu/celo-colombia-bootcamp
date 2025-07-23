@@ -4,9 +4,6 @@
 
 Antes de empezar, asegúrate de tener:
 
-> **¿Por qué Foundry?**
-> Foundry se elige en esta guía por su velocidad impresionante, compatibilidad nativa con Solidity y mínima configuración. Es la opción preferida para quienes buscan una herramienta ligera y eficiente frente a frameworks como Hardhat o Truffle.
-
 * Un terminal (Linux/macOS preferido; **en Windows** usa WSL 2 o Git Bash. En PowerShell, verifica que `forge`, `cast` y `celocli` estén en tu `%PATH%`).
 * **Node.js versión 18 o superior** para poder instalar la CLI de Celo sin problemas.
 * Conocimientos básicos de Solidity y contratos inteligentes.
