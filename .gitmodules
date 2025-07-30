@@ -10,3 +10,6 @@
 [submodule "bootcamp/templates/bootcamp-template-time-lock-vault"]
 	path = bootcamp/templates/bootcamp-template-time-lock-vault
 	url = git@github.com:cold-briu/bootcamp-template-time-lock-vault.git
+[submodule "bootcamp/templates/bootcamp-template-multisig-ccop"]
+	path = bootcamp/templates/bootcamp-template-multisig-ccop
+	url = git@github.com:cold-briu/bootcamp-template-multisig-ccop.git
