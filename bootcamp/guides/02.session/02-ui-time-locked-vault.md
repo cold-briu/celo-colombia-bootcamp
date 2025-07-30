@@ -9,30 +9,30 @@ Una guía paso a paso para construir una UI web3 mínima para conexión de walle
 3. [Limpieza de plantilla](#2-limpieza-de-plantilla)
 4. [Importación de ABI](#3-importación-de-abi)
 5. [Instalación de dependencias](#4-instalación-de-dependencias)
-6. [Configuración del cliente Viem](#6-configuración-del-cliente-viem)
-7. [Página de prueba Hello World](#7-página-de-prueba-hello-world)
-8. [Configuración de conexión de wallet](#8-configuración-de-conexión-de-wallet)
-   - 8.1 [Crear el archivo del componente principal](#81-crear-el-archivo-del-componente-principal)
-   - 8.2 [Agregar componente de estado de carga](#82-agregar-componente-de-estado-de-carga)
-   - 8.3 [Agregar diseño de contenedor principal y encabezado](#83-agregar-diseño-de-contenedor-principal-y-encabezado)
-   - 8.4 [Agregar botón de conexión de wallet](#84-agregar-botón-de-conexión-de-wallet)
-   - 8.5 [Agregar indicador de estado de conexión](#85-agregar-indicador-de-estado-de-conexión)
-   - 8.6 [Agregar lógica de conexión de wallet](#86-agregar-lógica-de-conexión-de-wallet)
-   - 8.7 [Agregar visualización de saldo de cuenta](#87-agregar-visualización-de-saldo-de-cuenta)
-9. [Creación de bóveda](#9-creación-de-bóveda-como-componente)
-   - 9.1 [Crear archivo del componente VaultCreation](#91-crear-archivo-del-componente-vaultcreation)
-   - 9.2 [Importar y usar el componente VaultCreation en la página principal](#92-importar-y-usar-el-componente-vaultcreation-en-la-página-principal)
-   - 9.3 [Eliminar lógica de creación de bóveda de la página principal](#93-eliminar-lógica-de-creación-de-bóveda-de-la-página-principal)
-10. [Listado de bóvedas](#10-listado-de-bóvedas)
-    - 10.1 [Crear archivo del componente VaultList](#101-crear-archivo-del-componente-vaultlist)
-    - 10.2 [Importar y usar el componente VaultList](#102-importar-y-usar-el-componente-vaultlist)
-    - 10.3 [Actualizar VaultCreation para refrescar la lista](#103-actualizar-vaultcreation-para-refrescar-la-lista)
-11. [Retirar bóveda](#11-retirar-bóveda)
-    - 11.1 [Agregar estado y función de retiro](#111-agregar-estado-y-función-de-retiro)
-    - 11.2 [Agregar lógica del botón de retiro](#112-agregar-lógica-del-botón-de-retiro)
-    - 11.3 [Actualizar página principal para pasar cliente de wallet](#113-actualizar-página-principal-para-pasar-cliente-de-wallet)
-    - 11.4 [Probar el flujo de retiro](#114-probar-el-flujo-de-retiro)
-12. [Compilar y ejecutar](#12-compilar-y-ejecutar)
+6. [Configuración del cliente Viem](#5-configuración-del-cliente-viem)
+7. [Página de prueba Hello World](#6-página-de-prueba-hello-world)
+8. [Configuración de conexión de wallet](#7-configuración-de-conexión-de-wallet)
+   - 8.1 [Crear el archivo del componente principal](#71-crear-el-archivo-del-componente-principal)
+   - 8.2 [Agregar componente de estado de carga](#72-agregar-componente-de-estado-de-carga)
+   - 8.3 [Agregar diseño de contenedor principal y encabezado](#73-agregar-diseño-de-contenedor-principal-y-encabezado)
+   - 8.4 [Agregar botón de conexión de wallet](#74-agregar-botón-de-conexión-de-wallet)
+   - 8.5 [Agregar indicador de estado de conexión](#75-agregar-indicador-de-estado-de-conexión)
+   - 8.6 [Agregar lógica de conexión de wallet](#76-agregar-lógica-de-conexión-de-wallet)
+   - 8.7 [Agregar visualización de saldo de cuenta](#77-agregar-visualización-de-saldo-de-cuenta)
+9. [Creación de bóveda (como componente)](#8-creación-de-bóveda-como-componente)
+   - 9.1 [Crear archivo del componente VaultCreation](#81-crear-archivo-del-componente-vaultcreation)
+   - 9.2 [Importar y usar el componente VaultCreation en la página principal](#82-importar-y-usar-el-componente-vaultcreation-en-la-página-principal)
+   - 9.3 [Eliminar lógica de creación de bóveda de la página principal](#83-eliminar-lógica-de-creación-de-bóveda-de-la-página-principal)
+10. [Listado de bóvedas](#9-listado-de-bóvedas)
+    - 10.1 [Crear archivo del componente VaultList](#91-crear-archivo-del-componente-vaultlist)
+    - 10.2 [Importar y usar el componente VaultList](#92-importar-y-usar-el-componente-vaultlist)
+    - 10.3 [Actualizar VaultCreation para refrescar la lista](#93-actualizar-vaultcreation-para-refrescar-la-lista)
+11. [Retirar bóveda](#10-retirar-bóveda)
+    - 11.1 [Agregar estado y función de retiro](#101-agregar-estado-y-función-de-retiro)
+    - 11.2 [Agregar lógica del botón de retiro](#102-agregar-lógica-del-botón-de-retiro)
+    - 11.3 [Actualizar página principal para pasar cliente de wallet](#103-actualizar-página-principal-para-pasar-cliente-de-wallet)
+    - 11.4 [Probar el flujo de retiro](#104-probar-el-flujo-de-retiro)
+12. [Compilar y ejecutar](#11-compilar-y-ejecutar)
 
 ---
 
@@ -88,7 +88,7 @@ npm install -D @types/node
 
 ---
 
-## 6. Configuración del cliente Viem
+## 5. Configuración del cliente Viem
 
 Crea la configuración del cliente Viem para Celo Alfajores:
 
@@ -128,7 +128,7 @@ export const walletClient = createWalletClient({
 
 ---
 
-## 7. Página de prueba Hello World
+## 6. Página de prueba Hello World
 
 Antes de implementar la UI web3 completa, vamos a crear una página simple "Hello World" para verificar que la configuración básica de Next.js funciona correctamente.
 
@@ -176,11 +176,11 @@ Este paso asegura que:
 
 Una vez que confirmes que esta página se renderiza correctamente, puedes proceder a la implementación de UI mínima.
 
-## 8. Configuración de conexión de wallet
+## 7. Configuración de conexión de wallet
 
 Crea el componente UI principal con conexión de wallet siguiendo estos sub-pasos:
 
-### 8.1 Crear el archivo del componente principal
+### 7.1 Crear el archivo del componente principal
 
 Crea `src/pages/index.tsx` con la estructura básica del componente:
 
@@ -211,7 +211,7 @@ export default function Home() {
 }
 ```
 
-### 8.2 Agregar componente de estado de carga
+### 7.2 Agregar componente de estado de carga
 
 Agrega el esqueleto de carga que se muestra durante la hidratación del lado del cliente:
 
@@ -233,7 +233,7 @@ if (!isClient) {
 }
 ```
 
-### 8.3 Agregar diseño de contenedor principal y encabezado
+### 7.3 Agregar diseño de contenedor principal y encabezado
 
 Agrega el contenedor principal con fondo degradado, tarjeta centrada y sección de encabezado:
 
@@ -255,7 +255,7 @@ return (
 )
 ```
 
-### 8.4 Agregar botón de conexión de wallet
+### 7.4 Agregar botón de conexión de wallet
 
 Agrega el botón de conexión con icono, estado deshabilitado cuando está conectado y etiqueta dinámica:
 
@@ -275,7 +275,7 @@ Agrega el botón de conexión con icono, estado deshabilitado cuando está conec
 </div>
 ```
 
-### 8.5 Agregar indicador de estado de conexión
+### 7.5 Agregar indicador de estado de conexión
 
 Agrega el estado de conexión que muestra tanto estados conectados como no conectados:
 
@@ -294,7 +294,7 @@ Agrega el estado de conexión que muestra tanto estados conectados como no conec
 )}
 ```
 
-### 8.6 Agregar lógica de conexión de wallet
+### 7.6 Agregar lógica de conexión de wallet
 
 Agrega el estado de cuenta y la funcionalidad de conexión de wallet:
 
@@ -310,7 +310,7 @@ async function onConnect() {
 }
 ```
 
-### 8.7 Agregar visualización de saldo de cuenta
+### 7.7 Agregar visualización de saldo de cuenta
 
 Agrega la visualización del saldo que muestra el saldo de CELO del usuario cuando está conectado:
 
@@ -346,17 +346,17 @@ async function onConnect() {
 
 ---
 
-## 9. Creación de bóveda (como componente)
+## 8. Creación de bóveda (como componente)
 
 Ahora que la conexión de wallet funciona, agreguemos la funcionalidad de creación de bóveda como un componente separado. Esto permitirá a los usuarios crear bóvedas con bloqueo temporal con CELO y mantener tu página principal limpia y modular.
 
-### 9.1 Crear archivo del componente VaultCreation
+### 8.1 Crear archivo del componente VaultCreation
 
 Crea un nuevo archivo en `src/app/VaultCreation.tsx`:
 
 [Incluye aquí el código completo del componente VaultCreation que ya tienes]
 
-### 9.2 Importar y usar el componente VaultCreation en la página principal
+### 8.2 Importar y usar el componente VaultCreation en la página principal
 
 En tu página principal, importa y usa el nuevo componente:
 
@@ -371,21 +371,21 @@ import VaultCreation from "./VaultCreation";
 />
 ```
 
-### 9.3 Eliminar lógica de creación de bóveda de la página principal
+### 8.3 Eliminar lógica de creación de bóveda de la página principal
 
 Elimina el estado, lógica y UI de creación de bóveda de tu página principal, ya que ahora vive en el componente `VaultCreation`.
 
 ---
 
-## 10. Listado de bóvedas
+## 9. Listado de bóvedas
 
 Ahora creemos un componente para mostrar las bóvedas de bloqueo temporal existentes. Esto permitirá a los usuarios ver todas las bóvedas que se han creado, incluyendo las suyas propias y las de otros.
 
-### 10.1 Crear archivo del componente VaultList
+### 9.1 Crear archivo del componente VaultList
 
 [Incluye aquí el código completo del componente VaultList que ya tienes]
 
-### 10.2 Importar y usar el componente VaultList
+### 9.2 Importar y usar el componente VaultList
 
 En tu página principal, importa y agrega el nuevo componente:
 
@@ -399,29 +399,29 @@ import VaultList from "./VaultList";
 />
 ```
 
-### 10.3 Actualizar VaultCreation para refrescar la lista
+### 9.3 Actualizar VaultCreation para refrescar la lista
 
 En tu componente `VaultCreation.tsx`, agrega un prop de callback para refrescar la lista de bóvedas después de la creación exitosa.
 
 ---
 
-## 11. Retirar bóveda
+## 10. Retirar bóveda
 
 Agrega funcionalidad de retiro al componente VaultList para completar el ciclo de vida de la bóveda con bloqueo temporal.
 
-### 11.1 Agregar estado y función de retiro
+### 10.1 Agregar estado y función de retiro
 
 En `src/app/VaultList.tsx`, agrega estado y función de retiro:
 
 [Incluye aquí el código de estado y función de retiro]
 
-### 11.2 Agregar lógica del botón de retiro
+### 10.2 Agregar lógica del botón de retiro
 
 Agrega botón de retiro a cada tarjeta de bóveda que cumpla los criterios:
 
 [Incluye aquí el código del botón de retiro]
 
-### 11.3 Actualizar página principal para pasar cliente de wallet
+### 10.3 Actualizar página principal para pasar cliente de wallet
 
 En tu página principal, pasa el cliente de wallet a VaultList:
 
@@ -433,7 +433,7 @@ En tu página principal, pasa el cliente de wallet a VaultList:
 />
 ```
 
-### 11.4 Probar el flujo de retiro
+### 10.4 Probar el flujo de retiro
 
 1. Crea una bóveda con duración corta (ej. 30 segundos)
 2. Espera a que pase el tiempo de desbloqueo
@@ -445,7 +445,7 @@ Esto completa la funcionalidad básica de la bóveda con bloqueo temporal: crear
 
 ---
 
-## 12. Compilar y ejecutar
+## 11. Compilar y ejecutar
 
 ### Actualizar configuración de TypeScript
 

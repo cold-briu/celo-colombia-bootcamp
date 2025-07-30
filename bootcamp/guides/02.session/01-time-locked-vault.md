@@ -2,12 +2,32 @@
 
 ## 📑 Índice
 
-1. [🛠️ 1. Instalar Foundry](#🛠️-1-instal-foundry)
-2. [📦 2. Instalar Celo CLI](#📦-2-instal-celo-cli)
-3. [⚙️ 3. Configurar Celo CLI](#⚙️-3-configurar-celo-cli)
-4. [👛 4. Setup de billetera](#👛-4-setup-de-billetera)
-5. [💰 5. Fondeo con el faucet de Alfajores](#💰-5-fondeo-con-el-faucet-de-alfajores)
-6. [🚀 6. Inicializar proyecto](#🚀-6-inicializar-proyecto)
+- [🛠 Prerrequisitos](#prerrequisitos)
+- [📋 Descripción general del contrato](#descripción-general-del-contrato)
+
+1. [🛠️ Instalar Foundry](#1-instalar-foundry)
+2. [📦 Instalar Celo CLI](#2-instalar-celo-cli)
+3. [⚙️ Configurar Celo CLI](#3-configurar-celo-cli)
+4. [👛 Setup de billetera](#4-setup-de-billetera)
+5. [💰 Fondeo con el faucet de Alfajores](#5-fondeo-con-el-faucet-de-alfajores)
+6. [🚀 Inicializar proyecto](#6-inicializar-proyecto)
+7. [✍️ Escribir tu contrato](#7-escribir-tu-contrato)
+   - 7.1 [📄 Licencia SPDX e Interfaz](#71-licencia-spdx-e-interfaz)
+   - 7.2 [🗂 Variables de estado y estructuras](#72-variables-de-estado-y-estructuras)
+   - 7.3 [🔧 Constructor](#73-constructor)
+   - 7.4 [🛠 Función helper interna](#74-función-helper-interna)
+   - 7.5 [🔒 Creación de bóveda ERC-20](#75-creación-de-bóveda-erc-20)
+   - 7.6 [💸 Función de retiro](#76-función-de-retiro)
+8. [🛠️ Compilar el contrato](#8-compilar-el-contrato)
+9. [🧪 Pruebas unitarias](#9-pruebas-unitarias)
+   - 9.1 [📋 Prerrequisitos de pruebas](#91-prerrequisitos-de-pruebas)
+   - 9.2 [🏗️ Crear estructura de pruebas](#92-crear-estructura-de-pruebas)
+   - 9.3 [⚙️ Inicializar archivo de prueba](#93-inicializar-archivo-de-prueba)
+   - 9.4 [🧪 Prueba de flujo feliz de bóveda CELO](#94-prueba-de-flujo-feliz-de-bóveda-celo)
+   - 9.5 [🧪 Prueba de flujo feliz de bóveda ERC-20](#95-prueba-de-flujo-feliz-de-bóveda-erc-20)
+   - 9.6 [🧪 Casos de falla y edge cases](#96-casos-de-falla-y-edge-cases)
+10. [🚢 Desplegar en Alfajores](#10-desplegar-en-alfajores)
+11. [🔗 Interactuar con el contrato](#11-interactuar-con-el-contrato)
 
 ## 🛠 Prerrequisitos
 
@@ -36,21 +56,7 @@ El TimeLockVaultFactory es un contrato factory que permite a los usuarios crear 
 
 ---
 
-## 🚀 Descripción del flujo de trabajo
 
-1. [Instalar Foundry](#1-instalar-foundry)
-2. [Instalar Celo CLI](#2-instalar-celo-cli)
-3. [Configurar Celo CLI](#3-configurar-celo-cli)
-4. [Crear una billetera](#4-setup-de-billetera)
-5. [Obtener fondos](#5-fondeo-con-el-faucet-de-alfajores)
-6. [Inicializar el proyecto](#6-inicializar-proyecto)
-7. [Escribir tu contrato](#7-escribir-el-contrato)
-8. [Compilar el contrato](#8-compilar-el-contrato)
-9. [Probar el contrato](#9-probar-el-contrato)
-10. [Desplegar en Alfajores](#10-despliegue)
-11. [Interactuar con el contrato](#11-interactuar-con-el-contrato)
-
----
 
 ### 🛠️ 1. Instalar Foundry
 
@@ -328,7 +334,7 @@ forge build
 #### Contexto
 Ejecuta pruebas para verificar la funcionalidad del contrato.
 
-### 📋 Prerrequisitos de pruebas
+### 9.1 📋 Prerrequisitos de pruebas
 
 * **Foundry** instalado
 * Comprensión básica de pruebas en Solidity
@@ -340,7 +346,7 @@ Ejecuta pruebas para verificar la funcionalidad del contrato.
 
 ---
 
-### 🏗️ Crear estructura de pruebas
+### 9.2 🏗️ Crear estructura de pruebas
 
 #### Contexto
 Configura la estructura de directorios para tus archivos de prueba siguiendo las convenciones de Foundry.
@@ -354,7 +360,7 @@ touch time-lock-vault/test/TimeLockVaultFactory.t.sol
 
 ---
 
-### ⚙️ Inicializar archivo de prueba
+### 9.3 ⚙️ Inicializar archivo de prueba
 
 #### Contexto
 Crea la estructura básica del archivo de prueba con las importaciones necesarias y la configuración del contrato.
@@ -382,7 +388,7 @@ contract TimeLockVaultFactoryTest is Test {
 
 ---
 
-### 1. Prueba de flujo feliz de bóveda CELO
+### 9.4 🧪 Prueba de flujo feliz de bóveda CELO
 
 #### Contexto
 Verifica el ciclo completo de una bóveda de CELO desde su creación hasta el retiro.
@@ -424,7 +430,7 @@ function test_CeloVault_HappyPath() public {
 
 ---
 
-### 2. Prueba de flujo feliz de bóveda ERC-20
+### 9.5 🧪 Prueba de flujo feliz de bóveda ERC-20
 
 #### Contexto
 Verifica la creación y retiro de una bóveda ERC-20 con un token mock.
@@ -461,7 +467,7 @@ function test_ERC20Vault_HappyPath() public {
 
 ---
 
-### 3. Casos de falla y edge cases
+### 9.6 🧪 Casos de falla y edge cases
 
 #### Contexto
 Prueba escenarios de falla para asegurar un comportamiento correcto bajo condiciones inválidas.
