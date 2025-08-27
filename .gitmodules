@@ -13,3 +13,6 @@
 [submodule "bootcamp/templates/bootcamp-template-multisig-ccop"]
 	path = bootcamp/templates/bootcamp-template-multisig-ccop
 	url = git@github.com:cold-briu/bootcamp-template-multisig-ccop.git
+[submodule "bootcamp/templates/bootcamp-template-uniswap-dashboard"]
+	path = bootcamp/templates/bootcamp-template-uniswap-dashboard
+	url = git@github.com:cold-briu/bootcamp-template-uniswap-dashboard.git
