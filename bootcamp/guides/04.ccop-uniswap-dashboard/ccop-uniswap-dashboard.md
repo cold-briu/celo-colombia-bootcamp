@@ -1,4 +1,4 @@
-# 🧪 Plantilla de Bootcamp - Dashboard de Uniswap
+# 🧪 Dashboard de cCOp Pool en Uniswap
 
 Un tutorial amigable para principiantes para construir y desplegar un dashboard de Uniswap v3 usando The Graph subgraph y React TypeScript. Esta plantilla de bootcamp proporciona una guía completa para desarrolladores Web3 que aprenden a interactuar con protocolos DeFi.
 
